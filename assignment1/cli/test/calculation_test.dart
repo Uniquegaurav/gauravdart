@@ -12,7 +12,7 @@ void main() {
     RawItem newItem = RawItem('gaurav', 'raw', 2, 8765.98);
     expect(newItem.calculateTax(), 1095.7475);
   });
-  test('calculating tax of raw item 3', () {
+  test('calculating tax of raw item 33', () {
     RawItem newItem = RawItem('gaurav', 'raw', 2, 30.0);
     expect(newItem.calculateTax(), 3.75);
   });
