@@ -1,9 +1,9 @@
 import "dart:io";
-import 'package:cli/models/item_class.dart';
+import 'package:cli/models/items.dart';
 import 'package:cli/util/validate_input.dart';
-import 'package:cli/models/raw_class.dart';
-import 'package:cli/models/manufactured_class.dart';
-import 'package:cli/models/imported_class.dart';
+import 'package:cli/models/raw_item.dart';
+import 'package:cli/models/manufactured_item.dart';
+import 'package:cli/models/imported_item.dart';
 
 void takingInput() {
   bool isAddingItem = true;
@@ -65,7 +65,7 @@ void takingInput() {
         print("Enter a valid price :");
       }
     }
-    ItemsClass newItem;
+    Items newItem;
     switch (itemType) {
       case "raw":
         {

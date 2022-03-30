@@ -1,6 +1,6 @@
-import 'item_class.dart';
+import 'package:cli/models/items.dart';
 
-class ImportedItem extends ItemsClass {
+class ImportedItem extends Items {
   double itemTax = 0.0;
   double itemFinalPrice = 0.0;
   ImportedItem(String? name, String? type, int quantity, double price)

@@ -1,7 +1,7 @@
 import 'package:test/test.dart';
-import 'package:cli/models/raw_class.dart';
-import 'package:cli/models/manufactured_class.dart';
-import 'package:cli/models/imported_class.dart';
+import 'package:cli/models/raw_item.dart';
+import 'package:cli/models/manufactured_item.dart';
+import 'package:cli/models/imported_item.dart';
 
 void main() {
   test('calculating tax of raw item 1', () {

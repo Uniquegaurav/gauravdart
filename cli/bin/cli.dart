@@ -1,5 +1,5 @@
-import 'package:cli/take_input.dart' as cli;
+import 'package:cli/take_input.dart';
 
 void main(List<String> arguments) {
-  cli.takingInput();
+  takingInput();
 }
