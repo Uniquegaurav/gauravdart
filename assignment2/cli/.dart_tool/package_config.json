@@ -3,13 +3,13 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///C:/Users/gaurav%20pragati/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/_fe_analyzer_shared-36.0.0",
+      "rootUri": "file:///C:/Users/gaurav%20pragati/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/_fe_analyzer_shared-38.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///C:/Users/gaurav%20pragati/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/analyzer-3.3.1",
+      "rootUri": "file:///C:/Users/gaurav%20pragati/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/analyzer-3.4.1",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
@@ -51,7 +51,7 @@
     },
     {
       "name": "coverage",
-      "rootUri": "file:///C:/Users/gaurav%20pragati/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/coverage-1.1.0",
+      "rootUri": "file:///C:/Users/gaurav%20pragati/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/coverage-1.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
@@ -165,9 +165,9 @@
     },
     {
       "name": "shelf",
-      "rootUri": "file:///C:/Users/gaurav%20pragati/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/shelf-1.2.0",
+      "rootUri": "file:///C:/Users/gaurav%20pragati/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/shelf-1.3.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.16"
     },
     {
       "name": "shelf_packages_handler",
@@ -290,7 +290,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2022-03-23T10:15:19.283730Z",
+  "generated": "2022-03-30T07:43:46.444865Z",
   "generator": "pub",
   "generatorVersion": "2.16.1"
 }
