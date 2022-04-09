@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:cli/util/user_functions.dart';
+import 'package:cli/util/user_options.dart';
 
 class UserManager {
   int userChoice = 5;
@@ -20,23 +20,23 @@ class UserManager {
 
   void startManager() {
     int choice = inputMainMenu();
-
+    UserOptions options = UserOptions();
     while (true) {
       switch (choice) {
         case 1:
-          AllFunctions.getNewUser();
+        options.getNewUser();
           break;
         case 2:
-          AllFunctions.dispalyUserDetails();
+        options.dispalyUserDetails();
           break;
         case 3:
-          AllFunctions.deleteUserByRollNumber();
+        options.deleteUserByRollNumber();
           break;
         case 4:
-          AllFunctions.saveToDisk();
+        options.saveToDisk();
           break;
         default:
-          AllFunctions.promptForSavingChanges();
+        options.promptForSavingChanges();
       }
       choice = inputMainMenu();
     }

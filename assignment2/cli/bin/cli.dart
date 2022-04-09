@@ -1,5 +1,6 @@
-import 'package:cli/user_manager.dart' as cli;
+import 'package:cli/user_manager.dart' ;
 
 void main(List<String> arguments) {
-  print('nothing');
+      UserManager newManager = UserManager();
+      newManager.startManager();
 }

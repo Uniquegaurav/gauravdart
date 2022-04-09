@@ -1,8 +1,9 @@
-import 'package:cli/cli.dart';
 import 'package:test/test.dart';
 
 void main() {
-  test('calculate', () {
-    expect(calculate(), 42);
+  
+  test('check exception age', () {
+    expect(67, 42);
   });
+ 
 }
