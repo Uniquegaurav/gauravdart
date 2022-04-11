@@ -1,11 +1,10 @@
-import 'dart:convert';
-
-class Users{
+import 'package:cli/models/course.dart';
+class Users implements Comparable<Users>{
   String? name;
   int age =22;
   String? address;
   int rollNumber= 1;
-  List<String>? enrolledCourses;
+  List<Courses>? enrolledCourses;
   Users(this.name,this.age,this.address,this.rollNumber,this.enrolledCourses);
   Users.fromJson(Map<String, dynamic> json)
       : name = json['name'],
@@ -13,16 +12,23 @@ class Users{
         address = json['address'],
         rollNumber = json['rollNumber'],
         enrolledCourses = json['enrolledCourses'];
-
   Map<String, dynamic> toJson() => {
         'name': name,
         'age' : age,
         'address' : address,
         'rollNumber' : rollNumber,
-        'enrolledCourses' : enrolledCourses
+        'enrolledCourses' : enrolledCourses.toString()
   };
+  @override
+  int compareTo(other) {
+    var comparison = name!.compareTo(other.name!);
+    if (comparison == 0) {
+      return rollNumber.compareTo(other.age);
+    }
+    return comparison;
+  }
   void display() {
-        print("%s\t\t\t\t\t%d\t\t\t\t\t\t\t%d\t\t\t\t\t%s\t\t\t\t\t%s\n\n $name, $rollNumber, $age, $address, $enrolledCourses");
+        print("$name  \t$rollNumber \t$age   \t$address  \t$enrolledCourses");
     }
   String? getName() {
         return name;
@@ -40,7 +46,7 @@ class Users{
         return rollNumber;
     }
 
-  List<String>? getEnrolledCourses() {
+  List<Courses>? getEnrolledCourses() {
         return enrolledCourses;
     }
 }
