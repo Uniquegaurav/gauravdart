@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Ayush mishra",
+        "age": 34,
+        "address": "patna",
+        "rollNumber": 54,
+        "enrolledCourses": "[Courses.A, Courses.E, Courses.D, Courses.B]"
+    },
+    {
+        "name": "Divya shree",
+        "age": 22,
+        "address": "Tumkur",
+        "rollNumber": 33,
+        "enrolledCourses": "[Courses.A, Courses.E, Courses.D, Courses.C]"
+    },
+    {
+        "name": "gayrav kumar",
+        "age": 34,
+        "address": "dfdf dfdf",
+        "rollNumber": 5,
+        "enrolledCourses": "[Courses.A, Courses.B, Courses.C, Courses.D, Courses.F]"
+    },
+    {
+        "name": "vinayak agrawal",
+        "age": 19,
+        "address": "jaipur",
+        "rollNumber": 131,
+        "enrolledCourses": "[Courses.A, Courses.C, Courses.D, Courses.B]"
+    }
+]
